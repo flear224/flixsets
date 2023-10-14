@@ -1,5 +1,7 @@
 *{
-    overflow: hidden;
+    white-space: normal;
+    overflow-y: hidden;
+    overflow-x: hidden;
     font-family:'poppins', sans-serif;
 }
 .hero{
@@ -35,31 +37,28 @@ nav ul li a{
     color: white;
     font-size: 17px;
 }
-box-icon{
-    position: relative;
-    list-style: none;
-    margin-right: auto;
+nav ul li a:hover{
+    color: blue;
 }
 img{
     display: inline;
     position: fixed;
 }
-P {
-    color:white;
-    position: absolute;
-    padding: 0%;
-    top: 50%;
-    left: 30%;
-    right: 30%;
-    bottom: 40%;
-    text-align: center;
-    font-family: sans-serif;
-}
 li :hover{
 color: blue;
 }
-li.pointer{
-    cursor: text;
+.main{
+    top: 0%;
+    bottom: 10px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+i{
+    top: 90px;
+    bottom: 10px;
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
 }
 .bg-animation {
     position: fixed;
@@ -206,4 +205,24 @@ padding-bottom: 100%;
 height: 100vh;
 margin: auto;
 overflow: visible;
+}
+@media only screen and(max-width: 600px){ 
+    html{
+        visibility: visible;
+    }
+}  
+@media only screen and(max-width: 768px){
+    html{
+        visibility: visible;
+    }
+ }  
+@media only screen and(max-width: 922px){   
+    html{
+        visibility: visible;
+    }
+}
+@media only screen and(max-width: 1200px){   
+    html{
+        visibility: visible;
+    }
 }
